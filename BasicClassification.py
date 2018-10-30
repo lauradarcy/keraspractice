@@ -132,7 +132,7 @@ So even though we're using a single image, we need to add it to a list:
 img = test_images[0]
 
 print(img.shape)
-plt.show()
+
 # Add the image to a batch where it's the only member.
 img = (np.expand_dims(img,0))
 
@@ -144,3 +144,5 @@ print(predictions_single)
 plt.figure()
 plot_value_array(0, predictions_single, test_labels)
 _ = plt.xticks(range(10), class_names, rotation=45)
+
+plt.show()
