@@ -28,4 +28,4 @@ _________________________________________________________________
 
 questions about this:
 
-(None, None, 16) $\leftarrow$ what is this shape supposed to mean? why is None part of the shape?
+(None, None, 16) <-- what is this shape supposed to mean? why is None part of the shape?
