@@ -123,26 +123,24 @@ for i in range(num_images):
   plt.subplot(num_rows, 2*num_cols, 2*i+2)
   plot_value_array(i, predictions, test_labels)
 
-
 '''
-Finally, use the trained model to make a prediction about a single image
-models are optimized to make predictions on a batch, or collection, of examples at once. 
+Finally, use the trained model to make a prediction about a single image.
+keras models are optimized to make predictions on a batch, or collection, of examples at once. 
 So even though we're using a single image, we need to add it to a list:
 '''
 # Grab an image from the test dataset
 img = test_images[0]
 
 print(img.shape)
-
+plt.show()
 # Add the image to a batch where it's the only member.
 img = (np.expand_dims(img,0))
 
 print(img.shape)
-#predict the image
+
 predictions_single = model.predict(img)
 
 print(predictions_single)
 plt.figure()
 plot_value_array(0, predictions_single, test_labels)
 _ = plt.xticks(range(10), class_names, rotation=45)
-plt.show()
