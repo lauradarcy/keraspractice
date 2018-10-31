@@ -4,9 +4,11 @@ also good github/readme practice
 
 notes go here
 
-Completed tutorial link: https://www.tensorflow.org/tutorials/keras/basic_classification
+Completed tutorial links:
 
-current tutorial link: https://www.tensorflow.org/tutorials/keras/basic_text_classification
+https://www.tensorflow.org/tutorials/keras/basic_classification
+
+https://www.tensorflow.org/tutorials/keras/basic_text_classification
 
 ```
 _________________________________________________________________
@@ -40,3 +42,6 @@ fig = plt.gcf()
 fig.canvas.set_window_title('Training and Validation Accuracy') #sets window title
 ```
 
+##Basic Regression: notes
+
+current tutorial link: https://www.tensorflow.org/tutorials/keras/basic_regression
