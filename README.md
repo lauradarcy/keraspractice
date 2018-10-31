@@ -31,3 +31,12 @@ questions about this:
 ```(None, None, 16)``` , resulting dimensions are ```(batch, sequence, embedding)``` <-- what is this shape supposed to mean? why is ```None``` part of the shape?
 
 ##```What the duck @ this whole thing```
+
+also learned a new thing for pyplot: 
+
+```
+plt.figure()
+fig = plt.gcf()
+fig.canvas.set_window_title('Training and Validation Accuracy') #sets window title
+```
+
