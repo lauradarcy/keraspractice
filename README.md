@@ -28,4 +28,6 @@ _________________________________________________________________
 
 questions about this:
 
-(None, None, 16) <-- what is this shape supposed to mean? why is None part of the shape?
+```(None, None, 16)``` , resulting dimensions are ```(batch, sequence, embedding)``` <-- what is this shape supposed to mean? why is ```None``` part of the shape?
+
+##```What the duck @ this whole thing```
